@@ -1,0 +1,44 @@
+# Maven target directory
+/target/
+target/
+log/
+test-output/
+Maven Dependencies/
+
+# Maven build logs
+mvn*.log
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Eclipse Core metadata
+.metadata/
+bin/
+
+# Java compiled files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# OS-specific files
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# IDE-specific
+# IntelliJ IDEA
+.idea/
+*.iml
+# VS Code
+.vscode/
