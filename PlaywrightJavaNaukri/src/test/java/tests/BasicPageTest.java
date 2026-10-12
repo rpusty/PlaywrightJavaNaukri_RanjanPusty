@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import base.BaseTest;
 
-public class NaukriBasePageTest extends BaseTest{
+public class BasicPageTest extends BaseTest{
 	
 	@Test
 	void verifyTitle() {
