@@ -10,6 +10,7 @@ public class LoginTest extends BaseTest{
 	
 	@Test
 	void loginTest() {
+		System.out.println("test2");
 		//placeholder="Enter Email ID / Username"
 		page.navigate("https://www.naukri.com/");
 		page.locator("#login_Layer").click();
