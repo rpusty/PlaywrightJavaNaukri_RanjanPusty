@@ -17,15 +17,12 @@ public class ApiBaseTest {
 
 	@BeforeMethod
 	public void setupAPI() {
-		System.out.println("test request1");
 		playwright = Playwright.create();
 		Map<String, String> headers = new HashMap<>();
 		headers.put("Content-Type", "application/json");
 		// headers.put("Authorization", "");
 		request = playwright.request().newContext(
 				new APIRequest.NewContextOptions().setBaseURL("http://localhost:3000").setExtraHTTPHeaders(headers));
-
-		System.out.println("test request: " + request);
 	}
 
 	@AfterMethod
